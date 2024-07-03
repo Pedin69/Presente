@@ -5,9 +5,41 @@
 }
 body{
     height: 100vh;
-    background: white;
+    display: flex;
+    background: linear-gradient(to bottom, rgba(128, 0, 0, 1), rgba(180, 0, 0, 1), rgba(255, 0, 0, 1));
+    background-size: 100% 500%;
+    animation: gradient-conteiner 3s infinite alternate;
+}
+/*EFECT GRADIENT*/
+@keyframes gradient-conteiner {
+    0%{
+        background-position-y: 0%;
+    }
+    100%{
+        background-position-y: 100%;
+    }
 }
 body * {
     font-family: "Slabo 27px", serif;
 }
 
+
+
+/*TOP*/
+#top{
+    width: 100%;
+    height: 891px;
+    background: white;
+    border-radius: 50%;
+    margin-top: -50%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+#conteiner h1{
+    margin-bottom: 10;
+    text-align: center;
+    align-items: end;
+    color: white;
+}
