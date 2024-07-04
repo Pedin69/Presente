@@ -3,42 +3,88 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    height: 100vh;
-    display: flex;
 
-    background: linear-gradient(to left, rgba(128, 0, 0, 1), rgba(180, 0, 0, 1), rgb(255, 0, 0));
-    background-size: 500% 100%;
+body {
+    height: 100vh;
+    /* display: flex; */
+
+    background: linear-gradient(to bottom, rgba(128, 0, 0, 1), rgba(180, 0, 0, 1), rgb(255, 0, 0));
+    background-size: 100% 500%;
     animation: gradient-conteiner 3s infinite alternate;
 }
 /*EFECT GRADIENT*/
 @keyframes gradient-conteiner {
-    0%{
-        background-position-x: 0%;
+    0% {
+        background-position-y: 0%;
     }
-    100%{
-        background-position-x: 100%;
+
+    100% {
+        background-position-y: 100%;
     }
 }
 body * {
-    font-family: "Slabo 27px", serif;
+    font-family: "Roboto", sans-serif;
 }
 
 
 /*TOP*/
-#top{
-    width: 100%;
-    height: 891px;
-    background: white;
-    border-radius: 50%;
-    margin-top: -50%;
+.top {
     display: flex;
-    align-items: end;
+    width: 100%;
+    height: 154px;
+    border: 2px solid white;
+    gap: 90px;
+    
+
+    align-items: center;
     justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+}
+.top #img-left{
+    transform: rotate(21.43deg);
+}
+.top #img-right{
+    transform: rotate(-21.43deg);
+}
+.top #text-initial {
+    display: flex;
+    width: 706px;
+    height: 154px;
+    border-radius: 1000px;
+    align-items: center;
+    justify-content: center;
+    gap: 42px;
+
+    border: solid black;
+    border-right-width: 8px;
+    border-bottom-width: 10px;
+    border-top-style: none;
+    border-left-style: none;
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(140px);
+
+    background: white;
+}
+.top p{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+.top #text-initial #star-left {
+    width: 80px;
+    height: 80px;
+
+    justify-content: left;
+
+    transform: rotate(-21.43deg);
 }
 
-h1{
-    margin-top: 1000px;
-    text-align: center;
-    color: white;
+.top #text-initial #star-right {
+    width: 80px;
+    height: 80px;
+
+    justify-content: right;
+
+    transform: rotate(21.43deg);
 }
