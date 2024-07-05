@@ -29,27 +29,28 @@ body * {
 /*TOP*/
 .top {
     display: flex;
-    width: 100%;
+    /* width: 100%; */
     height: 154px;
     /* border: 2px solid white; */
-    gap: 90px;
+    /* gap: 90px; */
 
-
+    
     align-items: center;
     justify-content: center;
     margin: auto;
+
     margin-top: 40px;
 }
-.top #img-left {
+/* .top #img-left {
     transform: rotate(21.43deg);
 }
 .top #img-right {
     transform: rotate(-21.43deg);
-}
+} */
 .top #text-initial {
     display: flex;
     width: 706px;
-    height: 154px;
+    height: 140px;
     border-radius: 1000px;
     align-items: center;
     justify-content: center;
@@ -70,7 +71,7 @@ body * {
 .top #text-initial #star-left {
     width: 80px;
     height: 80px;
-
+    
     /* justify-content: left; */
 
     transform: rotate(-21.43deg);
@@ -89,27 +90,30 @@ body * {
     border: 2px solid white;
     width: 100%;
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     margin-top: 99.04px;
     /* text-align: center; */
     /* gap: 200px; */
 } 
 .scroll-page #left-eyes{
-    
-    /* margin-left: 67px; */
+    margin-right: 209.51px;
 
     transform: rotate(15.63deg);
 }
-.scroll-page #dedo{
-    margin-left: 209.51px;
+/* .scroll-page #dedo{
+    margin-left: 209.51px; 
     
-}
+  
+} */
 .scroll-page p{
-    margin-left: 232.51px;
+    margin-left: 35px;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
 }
 .scroll-page #direct-eyes{
     
-    margin-left: 125px;
+    margin-left: 210px;
 
     transform: rotate(15.63deg);
 }
