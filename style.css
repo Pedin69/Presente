@@ -20,6 +20,7 @@ body {
 }
 body * {
     font-family: "Roboto", sans-serif;
+    font-weight: 500;
 }
 
 
@@ -163,7 +164,7 @@ body .top {
 /* TEXT CENTER */
 #text-love-center p {
     font-size: 40px;
-    font-weight: 400;
+    font-weight: 500;
     color: white;
     text-align: center;
 
@@ -217,7 +218,14 @@ body .top {
     margin: auto;
 }
 
+.almost #almost-there{
+    font-size: 48px;
+    font-weight: 500;
+    color: white;
 
+    text-align: center;
+    margin: 700px auto 0; 
+}
 /* @media (min-width: 700px){
     .top{
         align-items: center;
