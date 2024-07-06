@@ -3,11 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     background: linear-gradient(to bottom, rgba(128, 0, 0, 1), rgba(180, 0, 0, 1), rgb(255, 0, 0));
     background-size: 100% 200%;
     animation: gradient-conteiner 3s infinite alternate;
 }
+
 /*EFECT GRADIENT*/
 @keyframes gradient-conteiner {
     0% {
@@ -18,6 +20,7 @@ body {
         background-position-y: 100%;
     }
 }
+
 body * {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -121,12 +124,14 @@ body .top {
 
     margin: 165px auto 0;
 }
+
 .center-01 .img-01 #bouquet {
     width: 384px;
     transform: rotate(26.49deg);
 
     margin: auto;
 }
+
 .center-01 .img-01 #hearts {
     width: 300px;
     transform: rotate(-9.98deg);
@@ -147,12 +152,14 @@ body .top {
 
     margin-top: 100px;
 }
+
 .center-01 .img-02 #bouquet {
     width: 384px;
     transform: rotate(26.49deg);
 
     margin: auto;
 }
+
 .center-01 .img-02 #hearts {
     width: 300px;
     transform: rotate(-9.98deg);
@@ -180,24 +187,28 @@ body .top {
 
     margin: 250px auto 0;
 }
+
 .center-02 .image-01 #bouquet {
     width: 384px;
     transform: rotate(-26.49deg);
 
     margin: auto;
 }
-.center-02 .image-01 #hearts{
+
+.center-02 .image-01 #hearts {
     width: 300px;
     transform: rotate(26.49deg);
 
     margin: auto;
 }
-.center-02 #continued{
+
+.center-02 #continued {
     color: white;
     font-size: 40px;
     text-align: center;
     margin: 100px auto 0;
 }
+
 .center-02 .image-02 {
     display: flex;
     justify-content: center;
@@ -205,32 +216,81 @@ body .top {
 
     margin-top: 100px;
 }
-.center-02 .image-02 #bouquet{
+
+.center-02 .image-02 #bouquet {
     width: 384px;
     transform: rotate(-35deg);
 
     margin: auto;
 }
-.center-02 .image-02 #hearts{
+
+.center-02 .image-02 #hearts {
     width: 300px;
     transform: rotate(35deg);
 
     margin: auto;
 }
 
-.almost #almost-there{
+.almost #almost-there {
     font-size: 48px;
     font-weight: 500;
     color: white;
 
     text-align: center;
-    margin: 700px auto 0; 
+    margin: 700px auto 0;
 }
 
-.baloon{
+#baloon {
     text-align: right;
-    margin: 328px auto 0;
+    margin-top: 328px;
 }
+
+#left-eyes-02 {
+    margin-top: 328px;
+
+    transform: rotate(15.63deg);
+}
+
+#thin p {
+    font-size: 100px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+
+    margin-top: 328px;
+}
+
+#right-eyes-02 {
+    text-align: right;
+    margin-top: 201px;
+
+    transform: rotate(15.63deg);
+}
+
+
+.photo-01 {
+    border: 1px solid white;
+    /* display: block; */
+    width: 854px;
+    text-align: center;
+
+    margin-top: 200px;
+}
+
+.photo-01 #our-photo {
+    width: 500px;
+    height: 500px;
+}
+
+.photo-01 #start {
+    width: 500px;
+    text-align: right;
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
 /* @media (min-width: 700px){
     .top{
         align-items: center;
