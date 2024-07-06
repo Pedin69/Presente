@@ -226,6 +226,11 @@ body .top {
     text-align: center;
     margin: 700px auto 0; 
 }
+
+.baloon{
+    text-align: right;
+    margin: 328px auto 0;
+}
 /* @media (min-width: 700px){
     .top{
         align-items: center;
