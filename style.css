@@ -11,7 +11,7 @@ body {
     background-size: 100% 500%;
     animation: gradient-conteiner 3s infinite alternate;
 }
-/*EFECT GRADIENT*/
+            /*EFECT GRADIENT*/
 @keyframes gradient-conteiner {
     0% {
         background-position-y: 0%;
@@ -26,42 +26,36 @@ body * {
 }
 
 
-/*TOP*/
-.top {
+            /*TOP*/
+body .top {
     display: flex;
-    /* width: 100%; */
-    height: 154px;
-    /* border: 2px solid white; */
-    /* gap: 90px; */
-
+    width: 100%;
+    text-align: center;
+    /* align-items: center;
+    justify-content: center; */
     
-    align-items: center;
-    justify-content: center;
-    margin: auto;
 
-    margin-top: 40px;
 }
-/* .top #img-left {
-    transform: rotate(21.43deg);
-}
-.top #img-right {
-    transform: rotate(-21.43deg);
-} */
 .top #text-initial {
     display: flex;
-    width: 706px;
+
+    /* width: 706px; */
     height: 140px;
     border-radius: 1000px;
     align-items: center;
     justify-content: center;
     gap: 42px;
+    align-items: center;
+    justify-content: center;
+    
+    background: white;
 
+    margin-top: 40px;
 
     -webkit-box-shadow: 8px 10px 14px 0px rgba(0,0,0,0.7);
     -moz-box-shadow: 8px 10px 14px 0px rgba(0,0,0,0.7);
     box-shadow: 8px 10px 14px 0px rgba(0,0,0,0.7);
 
-    background: white;
 }
 .top p {
     font-size: 24px;
@@ -85,9 +79,9 @@ body * {
     transform: rotate(21.43deg);
 }
 
-
+            /* ROLAR A PÁGINA */
 .scroll-page{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -100,11 +94,6 @@ body * {
 
     transform: rotate(15.63deg);
 }
-/* .scroll-page #dedo{
-    margin-left: 209.51px; 
-    
-  
-} */
 .scroll-page p{
     margin-left: 35px;
     color: white;
@@ -119,4 +108,41 @@ body * {
 }
 
 
+            /* IMAGENS 01 */
+.img-01{
+    /* border: 2px solid white; */
+    /* display: flex; */
+    /* height: 384px; */
+    margin-top: 165px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.img-01 #bouquet{
+    width: 384px;
+    transform: rotate(26.49deg);
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.img-01 #hearts{
+    width: 300px;
+    
+    margin-left: 250px;
+    margin-bottom: 50px;
+
+    transform: rotate(-9.98deg);
+}
+
+body #three-points {
+    color: white;
+    font-size: 128px;
+    text-align: center;
+}
+
+@media (min-width: 700px){
+    .top{
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+}
 
