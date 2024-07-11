@@ -28,7 +28,7 @@ body * {
 
 
 /*TOP*/
-body .top {
+.top {
     display: flex;
     width: 100%;
     text-align: center;
@@ -270,7 +270,7 @@ body .top {
 
 .photo-01 {
     border: 1px solid white;
-    /* display: block; */
+    display: block;
     width: 854px;
     text-align: center;
 
@@ -280,14 +280,16 @@ body .top {
 .photo-01 #our-photo {
     width: 500px;
     height: 500px;
+
 }
 
 .photo-01 #start {
-    width: 500px;
-    text-align: right;
+    width: 800px;
     font-size: 40px;
     font-weight: 500;
     color: white;
+
+    margin-top: 40px;
     text-align: center;
 }
 
